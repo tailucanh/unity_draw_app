@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9132aeb228eeb934db194a1ada96f980, type: 3}
+  m_Name: Kindy2ColoringScriptableObject
+  m_EditorClassIdentifier: 
+  initDataConfig:
+    SCENCE_RESOLUTION: 1.77
+    colorWashOut:
+      serializedVersion: 2
+      rgba: 4294967295
+    colorWashIn:
+      serializedVersion: 2
+      rgba: 16777215
+    timeDelayOut: 800
+    timeDelayIn: 600
+    ellieIntroGallery: 'Intro 1 - '
+    ellieIntroDrawing: 'Intro 2 - '
+    ellieOutroGallery: 'Outro - '
+    EVENT_FIRST_RUN: Chay 1
+    EVENT_BRAKE: Phanh
+    EVENT_SECOND_RUN: chay 2
+    EVENT_FIRST_SPEECH_INTRO_GALLERY_1: Look!
+    EVENT_FIRST_SPEECH_INTRO_GALLERY_2: I want to have a lovely picture to hang on
+      the wall!
+    EVENT_BLINK: Chop mat
+    EVENT_SECOND_SPEECH_INTRO_GALLERY: I've got an idea!
+    EVENT_PENTOSS_1: Tung but 1
+    EVENT_PENTOSS_2: Tung but 2
+    EVENT_SPEECH_INTRO_DRAWING: Maybe my friends can help!
+    EVENT_OUTRO: chay 2
+    audioBackground: {fileID: 8300000, guid: 1ad86d4925cf52447a8fbcdc25f76748, type: 3}
+    listExpColor:
+    - serializedVersion: 2
+      rgba: 4280427042
+    - serializedVersion: 2
+      rgba: 4282664004
+    - serializedVersion: 2
+      rgba: 4281545523
+    - serializedVersion: 2
+      rgba: 4287137928
+    - serializedVersion: 2
+      rgba: 4289374890
+    - serializedVersion: 2
+      rgba: 4291607483
+    - serializedVersion: 2
+      rgba: 4293848814
+    - serializedVersion: 2
+      rgba: 4283782485
+    - serializedVersion: 2
+      rgba: 4289370521
+    - serializedVersion: 2
+      rgba: 4288252040
+    - serializedVersion: 2
+      rgba: 4292730333
+    - serializedVersion: 2
+      rgba: 4286019447
+    - serializedVersion: 2
+      rgba: 4284900966
+    - serializedVersion: 2
+      rgba: 4291611852
+    - serializedVersion: 2
+      rgba: 4279308561
+    - serializedVersion: 2
+      rgba: 4288256409
+    - serializedVersion: 2
+      rgba: 4290493371
+    - serializedVersion: 2
+      rgba: 4289374890
+  introDataConfig:
+    audioFirstSpeechIntroGallery:
+    - {fileID: 8300000, guid: c811325115a57374abf8e09cd6cbbcac, type: 3}
+    - {fileID: 8300000, guid: 63b45cfd15d1d9347986cbb6253a6a05, type: 3}
+    audioSecondSpeechIntroGallery: {fileID: 8300000, guid: aeddc90b8e26c8b4aa1b1adad5374c01, type: 3}
+    audioSpeechIntroDrawing: {fileID: 8300000, guid: 5705c3fbba0cfdc498b46fbcdfe93634, type: 3}
+    sfxsRun:
+    - {fileID: 8300000, guid: ba81f50976cd19f43aa8207886a9c17e, type: 3}
+    - {fileID: 8300000, guid: 291f1f73a72a3d848ba10cf04caf3608, type: 3}
+    sfxsBlink: {fileID: 8300000, guid: d006a90e811fcfb4d89a3c4b8cece677, type: 3}
+    sfxsBrake: {fileID: 8300000, guid: 7a19b0ca82cc7f949b2852e737ee46df, type: 3}
+    sfxsPenToss:
+    - {fileID: 8300000, guid: 6c6e44395f490a0478012e4b7e2a5e2f, type: 3}
+    - {fileID: 8300000, guid: 09a257a76e9bbd24297825b49f015f7b, type: 3}
+    miliSecondDelayFadeIn: 0
+    audioVolume: 0
+    loop: 0
+  localizationConfig:
+    keyLangagueTitle: kindy.popup.coloring.title
+    keyLangagueDescription: kindy.popup.coloring.description
+    keyLangagueCancel: kindy.popup.coloring.btnCancel
+    keyLangagueExit: kindy.popup.coloring.btnExit
+  clickDataConfig:
+    sfxClick: {fileID: 8300000, guid: 9b8e37f917754ec43a2080349587d56e, type: 3}
+    miliSecondDelay: 0
+    idImage: 40058589
+    audioVolume: 1
+    loop: 0
+  guidingDataConfig:
+    audioGuiding: {fileID: 8300000, guid: e9828dadc541fff4aa452e583cc91003, type: 3}
+    secondDelay: 7
+    audioVolume: 1
+    loop: 0
+  dataColorConfig:
+    colorButtons:
+    - serializedVersion: 2
+      rgba: 4283124735
+    - serializedVersion: 2
+      rgba: 4281109503
+    - serializedVersion: 2
+      rgba: 4278239999
+    - serializedVersion: 2
+      rgba: 4280341635
+    - serializedVersion: 2
+      rgba: 4294953800
+    - serializedVersion: 2
+      rgba: 4294939443
+    - serializedVersion: 2
+      rgba: 4294928042
+    - serializedVersion: 2
+      rgba: 4291922687
+    - serializedVersion: 2
+      rgba: 4280235936
+    - serializedVersion: 2
+      rgba: 4278190101
+    colorSelectWhite:
+      serializedVersion: 2
+      rgba: 4294967295
+    colorSelectBlue:
+      serializedVersion: 2
+      rgba: 4294953800
+    colorSelectRed:
+      serializedVersion: 2
+      rgba: 4283124735
+    colorSelectBrown:
+      serializedVersion: 2
+      rgba: 4280168590
+    colorSelectBrownBorder:
+      serializedVersion: 2
+      rgba: 4281687495
+  dataFinishGame:
+    timeSpent: 552.8397
+    timeStart: 0
+    timeEnd: 0
+    score: 0
+    isSendEvent: 1
+    key_pref: key_data_time_
+  outroConfig:
+    sfxsCheered: {fileID: 8300000, guid: 238e0dbbe8f9c6045a478e1d84276862, type: 3}
+    sfxsVictory: {fileID: 8300000, guid: c112f05da5c64cf4d9612849994a814a, type: 3}
+    audioVolume: 1
+    loop: 0
